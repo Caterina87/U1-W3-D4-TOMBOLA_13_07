@@ -1,8 +1,33 @@
+body {
+  background-color: aqua;
+  padding-inline: 16%;
+}
+.tabellone {
+  background-color: cornsilk;
+
+  padding: 5px;
+}
+
 .caselle {
-  border: 2px, solid, transparent;
-  background-color: blueviolet;
+  background-color: cornsilk;
+  border: 2px solid blueviolet;
   width: 60px;
   height: 60px;
   text-align: center;
   display: inline-block;
+  padding-top: 15px;
+}
+.caselleSelezionate {
+  background-color: blueviolet;
+  border: 2px solid blueviolet;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 15px;
+}
+.title {
+  text-align: center;
+  color: blueviolet;
+  font-weight: bold;
 }
